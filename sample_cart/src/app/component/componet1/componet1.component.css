@@ -1,0 +1,8 @@
+.mat-accordion
+{
+  display: grid;
+  margin-top: 10px;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}

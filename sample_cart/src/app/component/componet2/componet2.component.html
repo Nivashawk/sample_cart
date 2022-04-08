@@ -1,0 +1,24 @@
+<div class="component2_main_container">
+  <div class="image_placeholder"></div>
+  <div class="title_container">
+    <h1>
+      {{toy_title}}
+    </h1>
+    <p>Price $ 10</p>
+  </div>
+  <div class="stocks_container">
+    <p>stock</p>
+    <form [formGroup]="stock_form">
+      <input type="text" formControlName="stockCount">
+    </form>
+  </div>
+  <div class="total_container">
+    total
+  </div>
+  <div class="order_container">
+    <div class="price_container">
+      TOTAL : $ {{total}}
+    </div>
+  </div>
+  <div (click)="onSubmit()" class="order">order</div>
+</div>
